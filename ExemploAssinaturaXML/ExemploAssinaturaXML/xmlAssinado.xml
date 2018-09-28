@@ -1,0 +1,22 @@
+<teste>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>sd/GljDPh8C3mRnxjg2qHK3M02g=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>k+H6ZdnKUpmKnPiw8j1ZPwub3vmEvMRjIQvYUBYKGmw2M04BsaxtpLAHNybRe0V/OG9oxzwt7vT9kzx/faaGJYv5xV+DKkIKwtHQL9bEeD/MBdDm+pWuV4q2UnzJ3vG22/P57IeWeMTCY3vwqrR/5r/8p90I90U7iJdNjCiovRCLF99yAfFxWPKjoRzrJ7UA0VdsJUgmkmbLF2KvwFLvFGhT5+sakS4WwmAXbB9bc5+kmR7d1Ce2Zm/PCSraIIJF3JoTWuIQSGnNynPdHUqkwJsW2GPz4+FuDS6LPuyKNwawpWtE6nzTeMHT8PcJfABNvfwaOeTiYYJvSrXaNNjDYg==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIIC8jCCAdqgAwIBAgIQb95DOttDbqZBxsMkYWbIhTANBgkqhkiG9w0BAQUFADAiMSAwHgYDVQQDExdub3RlLW9iZXJkYW4ucGNhLmNvbS5icjAeFw0xMzEwMDExMzI4MTZaFw0xNDEwMDEwMDAwMDBaMCIxIDAeBgNVBAMTF25vdGUtb2JlcmRhbi5wY2EuY29tLmJyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnM4E+63PnBZ0S/FxGrNy1TH/G2uQgNQ0liKsczf0WJP+KQjyWfOxsRq8wxjoGX+s+wAURzXIipamXmmZZWUDC7ysCUrEvJeINRSn9e6MLmaeOxOYxafPBGmiTAndnfmIWEi5ReO9DBC/mB6Fn+fPiI32/JNQXzMhzddje0WGFEhWkN8AcaeQWELTuq4qBbQW0YnPehSG3mcfsUTIVBKcrAVCGjLRpGk16rp3ryCANatECwA9BINXISYAQ+b4sarSPnufJoRdrLgLLzkWcTzOJoqM0W0QrSV0ddJOxbd2Vt5j4hIvQnNvQHxRePLdeTi8ye3N1QK1MP26yNPCDsJ/JwIDAQABoyQwIjALBgNVHQ8EBAMCBDAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDQYJKoZIhvcNAQEFBQADggEBABj6INdFyhrTlspGmj7t7I3A9qbPftUaCfPuaU797+CCi1uBHst3NmE64G9PB9BDiCUJflJakSgjiRbnJdqkbmSmMSzG/CkejjX1sUcLUIEBWk4QS2m5XIWGsJL1KXb+NgxkTF2cTHI/64FRM8JJWb9/MBrsF07LOtYYecfrPglDoSqVHcRy2f7yc3BS/xvnuZOMeKzwpSsVdIKx959xPtt8V4IOwBgjgPN9BykRjx+vPmZO/lX4/6ejWSP6tPHbrgG8+gi0wSNk8f1S0HrGuNn5h/nbBc+0V+dQgtHKAShCowLMXoSIHyrU0oWWLLZqkjTjL0gyqSiTrgypq0INEHY=</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</teste>
